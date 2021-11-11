@@ -11,8 +11,6 @@ body{
 /*nav*/
 nav{
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    font-size: 16px;
 }
 nav.navbar{
     background-color: rgb(52, 117, 121);
@@ -45,7 +43,7 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
 }
 @media only screen and (max-width: 887px) {
     .header ul form{
-        width: 150px;
+        width: 147px;
     }
 }
 @media only screen and (max-width: 767.5px) {
@@ -54,6 +52,16 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
     }
 }
 /*end nav*/
+a img.giohang{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    border-radius: 50px;
+}
+/* a div.ct{
+    position: absolute;
+    top: ;
+} */
 .banner{
     margin-top: 70px;
     background-repeat: no-repeat;
@@ -190,6 +198,7 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
 #menu-link .content a{
     text-decoration: none;
     color: black;
+    /* padding-bottom: 100px; */
 }
 #menu-link .content a:focus{
     text-decoration: none;
@@ -228,6 +237,13 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
         padding-bottom: 40px;
     }
 
+}
+a img.fixed{
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 /*footer*/
 .footer{

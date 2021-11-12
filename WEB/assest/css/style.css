@@ -74,6 +74,9 @@ a img.giohang{
     div.intro p{
         font-size: 15px;
     }
+    div.intro h1{
+        font-size: 20px;
+    }
 }
 .intro{
     padding: 0 50px;
@@ -237,6 +240,11 @@ a img.giohang{
         padding-bottom: 40px;
     }
 
+}
+@media only screen and (max-width: 600px) {
+    #menu-link h1{
+        font-size: 25px;
+    }
 }
 a img.fixed{
     position: fixed;

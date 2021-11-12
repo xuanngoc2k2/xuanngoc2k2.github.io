@@ -246,3 +246,50 @@ html{
 .fa-star{
     font-size: 14px;
 }
+/*footer*/
+.footer{
+    padding-top: 20px;
+    color: #356178;
+    font-family: serif;
+}
+.footer .first{
+    background-color: rgb(158, 213, 216);
+}
+.footer .first img{
+    padding-top: 10px;
+    
+}
+.footer .second{
+    background-color: rgb(52, 117, 121);
+}
+.footer .second p{
+    padding-left: 25px;
+}
+.footer .second a.note{
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: rgba(240, 163, 75, 0.89);
+    font-size: 20px;
+}
+@media only screen and (max-width: 950px) {
+    .footer .second div a.note{
+        position: relative;
+        top: 3px;
+        text-decoration: none;
+        color: rgba(240, 163, 75, 0.89);
+        font-size: 15px;
+    }
+}
+.footer .second, .footer .third{
+    color: #fff;
+    font-size: 15px;
+}
+.footer .third{
+    background-color: rgb(34, 87, 90);
+}
+.footer .third p{
+    margin: auto;
+    padding: 10px 0px;
+}
+/*footer*/

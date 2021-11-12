@@ -9,8 +9,6 @@ body{
 /*nav*/
 nav{
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    font-size: 16px;
 }
 nav.navbar{
     background-color: rgb(52, 117, 121);
@@ -37,19 +35,24 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
     color: black;
     background-color: rgb(154, 216, 219);
 }
-.nav > li > a:focus, .nav > li > a:hover {
-    text-decoration: none;
-    background-color: rgb(154, 216, 219);
+.nav>li> a:focus, .nav>li>a:hover {
+    text-decoration: none !important;
+    background-color: rgb(154, 216, 219) !important;
 }
 @media only screen and (max-width: 887px) {
     .header ul form{
-        width: 150px;
+        width: 147px;
     }
 }
 @media only screen and (max-width: 767.5px) {
     .header ul form{
         width: 100%;
     }
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: rgb(52, 117, 121) !important;
+    border-color: #337ab7;
+    color: #fff;
 }
 /*end nav*/
 .bonus-line{
@@ -160,9 +163,6 @@ html{
     
     display: block;
 }
-#suggestions h3:hover {
- 
-}
 
 #suggestions h3{
     font-size: 18px;
@@ -197,15 +197,10 @@ html{
     font-weight: normal;
     color: #000;
     display: inline-block;
-    line-height: 38px;
-    
-    
-   
+    line-height: 38px;  
 }
 #suggestions .suggestion-item{
  margin-left: 25px;
- 
-
 }
 /* content-phone */
 .phone-container{

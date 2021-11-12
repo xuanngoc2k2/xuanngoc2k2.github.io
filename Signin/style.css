@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cecece;
+    background-color: rgb(198, 233, 235);
+    }
+    .register{
+        box-shadow: 5px 10px 10px 5px #333;
     }
     a {
     color: #00bd00;

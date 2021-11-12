@@ -68,8 +68,6 @@ section .img-bg{
     display: block;
 }
 
-
-
 section .img-bg img{
     position: absolute;
     top: 200px;
@@ -200,7 +198,15 @@ section .noi-dung .form .icon-dang-nhap li i{
     font-size: 24px;
     
 }
-
+@media only screen and (max-width: 900px) {
+    section .img-bg img{
+        display: none;
+    }
+    section .noi-dung{
+        align-items: center;
+        width: 100%;
+    }
+}
 @media (max-width: 768px){
     section .img-bg{
         display: none;

@@ -70,7 +70,7 @@ a img.giohang{
 }
 /*intro*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     div.intro p{
         font-size: 15px;
     }
@@ -239,13 +239,29 @@ a img.giohang{
     div.loi{
         padding-bottom: 40px;
     }
-
-}
-@media only screen and (max-width: 600px) {
     #menu-link h1{
         font-size: 25px;
     }
 }
+/* .themgio ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 70px;
+}
+.themgio ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold; 
+}
+.sub-suggestions{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: #333;
+    top: 95%;
+    left:0;
+} */
+
 a img.fixed{
     position: fixed;
     bottom: 100px;

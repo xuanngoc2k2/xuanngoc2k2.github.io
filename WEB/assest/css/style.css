@@ -57,6 +57,16 @@ a img.giohang{
     top: 100px;
     right: 50px;
     border-radius: 50px;
+    width: 70px;
+}
+@media only screen and (max-width: 768px){
+    a img.giohang{
+        position: fixed;
+        top: 100px;
+        right: 40px;
+        border-radius: 50px;
+        width: 45px;
+    }
 }
 /* a div.ct{
     position: absolute;

@@ -68,7 +68,7 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
     float: left;
 }
 .col-w5{
-    width: 38%;
+    width: 100%;
     
 }
 .mg-lb{
@@ -98,9 +98,9 @@ html{
 }
 
 .section{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
    
 }
 
@@ -243,7 +243,7 @@ html{
 .fa-star{
     font-size: 14px;
 }
-@media (max-width: 600px){
+@media (max-width: 887px){
     .phone-container{
         flex-direction: column;
     	text-align: center;

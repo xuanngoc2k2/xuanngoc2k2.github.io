@@ -3,18 +3,22 @@ function validate() {
     var p1 = document.getElementById("password").value;
     var p2 = document.getElementById("password-repeat").value;
      
-    if(u== "") {
+    if(u== " ") {
     alert("Vui lòng nhập tên!");
-    return false;
+    return;
     }
-    if(p1 == "") {
+    if(p1 == " ") {
     alert("Vui lòng nhập mật khẩu!");
-    return false;
+    return;
     }
-    if(p2 == "") {
+    if(p2 == " ") {
     alert("Vui lòng xác minh mật khẩu!");
-    return false;
+    return;
     }
-    alert("Xin hãy điền đúng thông tin!")  
-    return true;
+     
+    if(p1 !== p2) {
+        alert("Xác minh mật khẩu không đúng. Vui lòng xác minh lại mật khẩu!");
+        return;
+    } 
+    alert("Tạo tài khoản thành công");
     }

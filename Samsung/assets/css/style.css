@@ -126,7 +126,7 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
         width: 100%;
     }
 }
-
+/*end nav*/
 
 #slider{
     padding-top: 45px;
@@ -193,9 +193,6 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
 #suggestions .suggestion-item{
  text-decoration: none;
  
-}
-#suggestions{
-    
 }
 
 .suggestions-text{

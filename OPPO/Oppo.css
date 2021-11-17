@@ -13,15 +13,19 @@ body{
     padding: 0 100px;
 }
                   /* Nav bar */
+/*nav*/
+nav{
+  font-family: Arial, Helvetica, sans-serif;
+}
 nav.navbar{
   background-color: rgb(52, 117, 121);
 }
 nav a, nav li{
   text-transform: uppercase;
-  color: black;
+  color: rgb(253, 253, 253);
 }
 .dropdown a, .dropdown ul,nav .list li a:visited{
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: rgb(52, 117, 121);
 }
 nav .list li a:hover{
@@ -32,19 +36,19 @@ nav .list li a:hover{
   border-color: #337ab7;
 }
 .navbar .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
   color: black;
-  background-color: rgb(52, 117, 121);
+  background-color: rgb(154, 216, 219);
 }
 .nav > li > a:focus, .nav > li > a:hover {
   text-decoration: none;
-  background-color: rgb(52, 117, 121);
+  background-color: rgb(154, 216, 219);
 }
 @media only screen and (max-width: 887px) {
   .header ul form{
-      width: 150px;
+      width: 147px;
   }
 }
 @media only screen and (max-width: 767.5px) {
@@ -52,7 +56,7 @@ nav .list li a:hover, .navbar-right li a:hover, nav a:hover{
       width: 100%;
   }
 }
-                /* Nav bar */
+/*end nav*/
 
 
 
